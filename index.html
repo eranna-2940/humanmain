@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <button><a href="./demo/index.html">divert</a></button>
+    <button><a href="./demo/index.html" id="autoClick">divert</a></button>
+    <script>
+        setTimeout(()=>{
+            document.getElementById("autoClick").click();
+        },100)
+    </script>
 </body>
 </html>
